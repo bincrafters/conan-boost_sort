@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostSortConan(ConanFile):
     name = "boost_sort"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-sort"
+    url = "https://github.com/bincrafters/conan-boost_sort"
 
     lib_short_names = ["sort"]
     is_header_only = True
