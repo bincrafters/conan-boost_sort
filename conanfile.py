@@ -8,7 +8,8 @@ class BoostSortConan(ConanFile):
     name = "boost_sort"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_sort"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["sort"]
     is_header_only = True
 
