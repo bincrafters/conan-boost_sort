@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostSortConan(base.BoostBaseConan):
     name = "boost_sort"
@@ -19,4 +19,3 @@ class BoostSortConan(base.BoostBaseConan):
         "boost_static_assert",
         "boost_type_traits"
     ]
-
